@@ -27,8 +27,8 @@ class City:
             print(self.phone_code)
 
 
-a = City()
+b = City()
 ch = input('1) - All info\n2) - Name\n3) - Region\n4) - Country\n5) - Count people\n6) - Index\n7) - Phone code\n'
            'Choice: ')
 
-a.get_info(int(ch))
+b.get_info(int(ch))
