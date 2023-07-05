@@ -80,7 +80,6 @@ class City:
         self.index = 159753
         self.phone_code = 322
 
-
     def get_info(self, choice):
         self.choice = choice
 
