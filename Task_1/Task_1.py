@@ -30,10 +30,12 @@ class Man:
 
 
 a = Man()
+
 ch = input('1) - All info\n2) - Name\n3) - Surname\n4) - Birth date\n5) - Phone number\n6) - City\n7) - County\n'
            '8) - Address\nChoice: ')
 
 a.get_info(int(ch))
+
 
 class City:
     def __init__(self):
