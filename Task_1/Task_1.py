@@ -69,3 +69,4 @@ ch = input('1) - All info\n2) - Name\n3) - Region\n4) - Country\n5) - Count peop
            'Choice: ')
 
 b.get_info(int(ch))
+
