@@ -71,7 +71,7 @@ ch = input('1) - All info\n2) - Name\n3) - Region\n4) - Country\n5) - Count peop
 b.get_info(int(ch))
 
 
-class City1:
+class City_1:
     def __init__(self):
         self.name = 'Argon'
         self.region = 'Valarant'
@@ -100,7 +100,7 @@ class City1:
             print(self.phone_code)
 
 
-c = City1()
+c = City_1()
 ch = input('1) - All info\n2) - Name\n3) - Region\n4) - Country\n5) - Count people\n6) - Index\n7) - Phone code\n'
            'Choice: ')
 
