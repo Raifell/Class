@@ -1,3 +1,6 @@
+from time import gmtime, strftime
+import datetime as dt
+
 count = []
 
 with open('text.txt', 'r') as file:
@@ -11,4 +14,30 @@ with open('result_text.txt', 'w') as file:
     for x in over:
         file.write(x + '\n')
 
-print(over)
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+choice = input('1) - Текущая дата\n2) - Текущий год\n3) - Месяц года\n4) - Номер неделим в году\n5) - '
+               'Будний день недели\n6) - День года\n7) - День месяца\n8) - День недели\nВведите число: ')
+
+if choice == '1':
+    print('Дата:', strftime("%Y-%m-%d %H:%M:%S", gmtime()))
+elif choice == '2':
+    print('Год:', strftime("%Y", gmtime()))
+elif choice == '3':
+    print('Месяц:', strftime("%m", gmtime()))
+elif choice == '4':
+    print('Номер недели:', strftime("%V", gmtime()))
+elif choice == '5':
+    day = dt.datetime.today().weekday()
+    if day == 5 or day == 6:
+        print(True)
+    else:
+        print(False)
+elif choice == '6':
+    day_y = dt.datetime.now().timetuple().tm_yday
+    print('День в году: ', day_y)
+elif choice == '7':
+    print('День месяца:', strftime("%d", gmtime()))
+elif choice == '8':
+    a = dt.datetime.today().weekday()
+    print(days[a])
