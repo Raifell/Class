@@ -12,3 +12,4 @@ with open('result_text.txt', 'w') as file:
         file.write(x + '\n')
 
 print(over)
+print(over)
