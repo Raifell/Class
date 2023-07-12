@@ -14,6 +14,7 @@ with open('result_text.txt', 'w') as file:
     for x in over:
         file.write(x + '\n')
 
+
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 month = ['January', 'February', 'March', 'April', 'May', 'June',
          'July', 'August', 'September', 'October', 'November', 'December']
@@ -51,3 +52,7 @@ if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
     print('Год високосный!')
 else:
     print('Год не високосный!')
+
+print(over)
+print(over)
+
