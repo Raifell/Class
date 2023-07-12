@@ -15,6 +15,8 @@ with open('result_text.txt', 'w') as file:
         file.write(x + '\n')
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+month = ['January', 'February', 'March', 'April', 'May', 'June',
+         'July', 'August', 'September', 'October', 'November', 'December']
 
 choice = input('1) - Текущая дата\n2) - Текущий год\n3) - Месяц года\n4) - Номер неделим в году\n5) - '
                'Будний день недели\n6) - День года\n7) - День месяца\n8) - День недели\nВведите число: ')
@@ -24,7 +26,8 @@ if choice == '1':
 elif choice == '2':
     print('Год:', strftime("%Y", gmtime()))
 elif choice == '3':
-    print('Месяц:', strftime("%m", gmtime()))
+    m = strftime("%m", gmtime())
+    print('Месяц:', month[int(m) - 1])
 elif choice == '4':
     print('Номер недели:', strftime("%V", gmtime()))
 elif choice == '5':
@@ -41,3 +44,10 @@ elif choice == '7':
 elif choice == '8':
     a = dt.datetime.today().weekday()
     print(days[a])
+
+year = input('Введите год: ')
+year = int(year)
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print('Год високосный!')
+else:
+    print('Год не високосный!')
