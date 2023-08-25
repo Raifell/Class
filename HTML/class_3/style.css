@@ -1,0 +1,35 @@
+body{
+    background: grey;
+}
+.container{
+    min-height: 56px;
+    max-width: 328px;
+    background: #FFF;
+    padding: 8px 16px;
+    margin: 0 40%;
+
+}
+.task{
+    min-height: 56px;
+    max-width: 328px;
+    background: #FFF;
+    padding: 16px 16px;
+    margin: 0 40%;
+
+}
+
+.into{
+    width: 100%;
+}
+.im_center{
+    margin: 0 109px;
+}
+
+.btn{
+    padding: 16px;
+    color: white;
+    background: orange;
+    display: inline-block;
+    margin: 0 45%;
+    border: 2px solid black;
+}

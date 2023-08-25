@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+p{
+font-size: 18px
+}
+li{
+    font-size: 20px
+}
+li b{
+    color: red;
+    font-size: 2rem;
+    font-style: italic
+}
+.example{
+    color: yellow;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: red;
+    height: 100px
+}
+.example_1{
+    background-color: green;
+    font-size: 30px
+}
+#first_p{
+    color: white
+}
+.block1 {
+    width: 29%;
+    height: 300px;
+    padding: 5px;
+    padding-right: 20px;
+    float: left;
+           }
+.block2 {
+    width: 40%;
+    height: 300px;
+    background-color: black;
+    padding: 5px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: left;
+           }
+.p_1{
+    color: red
+           }
+.p_2{
+    color: orange
+           }
+.p_3{
+    color: yellow
+           }
+.p_4{
+    color: green
+           }
+.p_5{
+    color: blue
+           }
+.p_6{
+    color: indigo
+           }
+.p_7{
+    color: violet
+           }

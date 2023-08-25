@@ -1,0 +1,217 @@
+.box{
+    width: 100px;
+    height: 100px;
+}
+.box-1{
+    height: 200vh;
+    background: red;
+}
+.box-2{
+    background: blue;
+    position: relative;
+    left: 20px;
+    bottom: 100px;
+}
+.box-3{
+    background: yellow;
+    position: absolute;
+    top: 40px;
+    right: 120px;
+
+}
+.box-4{
+    background: green;
+    position: fixed;
+    top: 8px;
+    left: 108px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightgrey;
+}
+
+
+
+
+
+
+
+label[for="check"]{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 379px;
+    width: 90%;
+}
+.author .input{
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    padding: 12px;
+    outline: none;
+}
+
+.author .input:hover{
+    border: 1px solid black;
+}
+
+.bix{
+    padding: 15px;
+}
+
+#login {
+    background: blue;
+}
+
+
+
+
+
+
+.bd-1{
+    width: 100vw;
+    height: 300px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ap-1{
+    padding: 15px;
+    display: flex;
+    gap: 24px;
+    width: 90%;
+    justify-content: center;
+}
+
+.blk-1{
+    width: 90%;
+    height: 125%;
+    margin: 0 auto;
+    padding: 20px 0;
+    border: 1px solid black;
+}
+
+.fr-1{
+    display: flex;
+    gap: 4px;
+    width: 90%;
+    justify-content: center;
+}
+
+.fr-2{
+    display: flex;
+    gap: 4px;
+    width: 90%;
+    justify-content: center;
+}
+
+.bt-1{
+    width: 10%;
+}
+
+.fr-1 .inp-1{
+    padding: 10px;
+    outline: none;
+}
+
+.fr-1 .inp-1:hover{
+    border: 1px solid black;
+}
+
+.fr-1 .tx-1{
+    padding: 10px;
+    margin: 8px;
+    width: 45.4%;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.banner{
+    background-image: url("./top_logo/R.png");
+    background-size: cover;
+    height: 298px;
+}
+.content{
+    flex-grow: 1;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+.brick{
+    padding: 24px 46px 50px;
+    background: rgba(185, 190, 209, 0.71);
+    width: 100%;
+    max-width: 486px;
+    height: 475px;
+    margin 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    align-items: center;
+
+    border-radius: 24px;
+    position: relative;
+    top: -80px;
+}
+.brick h1{
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    gap: 12px;
+}
+.icons img{
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 2px;
+}
+.btn{
+    border-radius: 8px;
+    background: #343A40;
+
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px
+}
+.brick a{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: blink;
+}

@@ -1,0 +1,91 @@
+body{
+    background: grey;
+}
+.catt{
+    order: 1;
+}
+*{margin: 0;}
+section{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+h3{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background: black;
+    padding: 0 35%;
+
+}
+.cont{
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    background: black;
+    max-width: 1300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.item img{
+    margin: 12px 0;
+}
+.item h4{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+.item p{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Позиционирование по центру */
+    gap: 5px; /* Отступы */
+    flex-wrap: no-wrap; /* Перенос на новую строку */
+    flex-direction: column;
+
+
+    min-height: 56px;
+    max-width: 328px;
+    background: #FFF;
+    padding: 0 16px;
+    margin: 0 40%;
+
+}
+.task{
+    min-height: 56px;
+    max-width: 328px;
+    background: #FFF;
+    padding: 16px 16px;
+    margin: 0 40%;
+
+}
+
+.into{
+    width: 100%;
+}
+
+.btn{
+    padding: 16px;
+    color: white;
+    background: orange;
+    display: inline-block;
+    margin: 0 45%;
+    border: 2px solid black;
+}
