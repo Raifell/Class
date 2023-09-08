@@ -3,8 +3,8 @@ class Main:
         return 'Hello World!'
 
 
-a = Main()
-print(a)
+v = Main()
+# print(a)
 
 
 class Example:
@@ -21,7 +21,7 @@ class Example:
 
 
 ex = Example(9)
-print(ex)
+# print(ex)
 # print(Example.find(9))
 
 
@@ -33,10 +33,19 @@ class Font:
         return round(d*2 + b, 2)
 
     def __init__(self, di, hi):
-        self.di = di
-        self.hi = hi
-        self.area = self.rectangle(di, hi)
+        self.__di = di
+        self.__hi = hi
+        self.area = self.rectangle(self.__di, self.__hi)
+
+    def get_di(self):
+        return self.__di
+
+    def set_di(self, di):
+        self.__di = di
 
 
 a = Font(1, 2)
+print(a.get_di())
+a.set_di(4)
+print(a.get_di())
 print(a.area)
